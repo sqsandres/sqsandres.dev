@@ -1,0 +1,29 @@
+{
+  "trailingSlash": "never",
+  "routes": [
+    {
+        "route": "/*",
+        "serve": "/index.html",
+        "statusCode": 200
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  },
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "https://www.sqsandres.dev",
+    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "content-security-policy": "frame-ancestors 'self';upgrade-insecure-requests",
+    "Referrer-Policy":"no-referrer",
+    "Permissions-Policy": "geolocation=(), microphone=(), camera=(), fullscreen=(self), payment=()"
+  },
+  "mimeTypes": {
+    ".json": "text/json"
+  }
+}

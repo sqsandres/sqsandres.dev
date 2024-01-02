@@ -1,0 +1,15 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: AzureStaticWebApp@0
+  displayName: 'Static Web App: '
+  inputs:
+    app_location: 'src'
+    config_file_location: 'src'
+    output_location: 'dist'
+    azure_static_web_apps_api_token: $(Static-Web-App-Token)
+    env: 'Production'

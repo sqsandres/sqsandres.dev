@@ -1,0 +1,244 @@
+[
+    {
+        "id": 1,
+        "title": "Back End",
+        "type": "skills",
+        "layers":[
+            {
+                "id": 1,
+                "name": "Languages",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "c sharp",
+                        "years": "20",
+                        "icon": "csharp.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "java",
+                        "years": "3",
+                        "icon": "java.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "node.js",
+                        "years": "1",
+                        "icon": "nodejs.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 4,
+                        "name": "visual basic",
+                        "years": "6",
+                        "icon": "visual-basic.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 5,
+                        "name": "python",
+                        "years": "1",
+                        "icon": "python.svg",
+                        "projects": []
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Infrastructure",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Azure devops",
+                        "years": "5",
+                        "icon": "azuredevops.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 2,
+                        "name": ".NET",
+                        "years": "20",
+                        "icon": "dot-net.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "docker",
+                        "years": "3",
+                        "icon": "docker.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 4,
+                        "name": "git",
+                        "years": "7",
+                        "icon": "git.svg",
+                        "projects": []
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Data",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Microsoft SQL Server",
+                        "years": "20",
+                        "icon": "microsoftsqlserver.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "Oracle",
+                        "years": "3",
+                        "icon": "oracle.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "mongo db",
+                        "years": "1",
+                        "icon": "mongodb.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 4,
+                        "name": "Redis",
+                        "years": "1",
+                        "icon": "redis.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 5,
+                        "name": "MySql",
+                        "years": "3",
+                        "icon": "mysql-c.svg",
+                        "projects": []
+                    }
+                ]
+            }]
+    },
+    {
+        "id": 2,
+        "title": "Front End",
+        "type": "skills",
+        "layers":[
+            {
+                "id": 1,
+                "name": "Languages",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "javascript",
+                        "years": "10",
+                        "icon": "javascript.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "TypeScript",
+                        "years": "3",
+                        "icon": "typescript.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "html",
+                        "years": "10",
+                        "icon": "html5.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 4,
+                        "name": "CSS",
+                        "years": "10",
+                        "icon": "css.svg",
+                        "projects": []
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Frameworks/Libraries",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Angular",
+                        "years": "1",
+                        "icon": "angular.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "React",
+                        "years": "1",
+                        "icon": "react.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "ExtJS",
+                        "years": "3",
+                        "icon": "sencha-c.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 4,
+                        "name": "VUE",
+                        "years": "1",
+                        "icon": "vue.svg",
+                        "projects": []
+                    },
+                    {
+                        "id": 5,
+                        "name": "Astro",
+                        "years": "1",
+                        "icon": "astro.svg",
+                        "projects": []
+                    }
+                ]
+            }
+        ]
+    },{
+        "id": 1,
+        "title": "Projects",
+        "type": "projects",
+        "layers": [
+            {
+                "id": 1,
+                "name": "porfolio.dev",
+                "code": "https://dev.azure.com/sqsandres/_git/sqsandres.dev",
+                "iconCode": "azuredevops.svg",
+                "iconSite": "sqsandres.dev.png",
+                "site": "https://www.sqsandres.dev"
+            },
+            {
+                "id": 2,
+                "name": "porfolio.dev",
+                "code": "https://dev.azure.com/sqsandres/_git/sqsandres.dev",
+                "iconCode": "azuredevops.svg",
+                "iconSite": "microservices.svg",
+                "site": "https://www.sqsandres.dev"
+            },
+            {
+                "id": 3,
+                "name": "porfolio.dev",
+                "code": "https://dev.azure.com/sqsandres/_git/sqsandres.dev",
+                "iconCode": "azuredevops.svg",
+                "iconSite": "responsive.svg",
+                "site": "https://www.sqsandres.dev"
+            },
+            {
+                "id": 4,
+                "name": "porfolio.dev",
+                "code": "https://dev.azure.com/sqsandres/_git/sqsandres.dev",
+                "iconCode": "azuredevops.svg",
+                "iconSite": "responsive.svg",
+                "site": "https://www.sqsandres.dev"
+            }
+        ]
+    }
+]

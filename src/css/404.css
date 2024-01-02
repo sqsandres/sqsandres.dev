@@ -1,0 +1,141 @@
+body {
+    background-color: #030712;
+    color: rgb(209,213,219);
+    height: 100vh;
+    font: 1.3rem 'Fira Code', monospace;
+  }
+  
+  @font-face{
+    font-family: 'Fira Code';
+    src: url('../font/eot/FiraCode-Light.eot');
+    src: url('../font/eot/FiraCode-Light.eot') format('embedded-opentype'),
+         url('../font/woff2/FiraCode-Light.woff2') format('woff2'),
+         url('../font/woff/FiraCode-Light.woff') format('woff'),
+         url('../font/ttf/FiraCode-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Code';
+    src: url('../font/eot/FiraCode-Regular.eot');
+    src: url('../font/eot/FiraCode-Regular.eot') format('embedded-opentype'),
+         url('../font/woff2/FiraCode-Regular.woff2') format('woff2'),
+         url('../font/woff/FiraCode-Regular.woff') format('woff'),
+         url('../font/ttf/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Code';
+    src: url('../font/eot/FiraCode-Medium.eot');
+    src: url('../font/eot/FiraCode-Medium.eot') format('embedded-opentype'),
+         url('../font/woff2/FiraCode-Medium.woff2') format('woff2'),
+         url('../font/woff/FiraCode-Medium.woff') format('woff'),
+         url('../font/ttf/FiraCode-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Code';
+    src: url('../font/eot/FiraCode-Bold.eot');
+    src: url('../font/eot/FiraCode-Bold.eot') format('embedded-opentype'),
+         url('../font/woff2/FiraCode-Bold.woff2') format('woff2'),
+         url('../font/woff/FiraCode-Bold.woff') format('woff'),
+         url('../font/ttf/FiraCode-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+a {
+    color: rgb(0, 170, 0);
+    text-decoration: none;
+  }
+  
+  .underline:hover {
+    color: rgb(0, 170, 0);
+  }
+  
+  .underline {
+    position: relative;
+  }
+  
+  .underline::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: rgb(0, 170, 0);
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .underline:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
+  
+.cursor {
+    animation: cursor 2s infinite;
+    color: rgb(0, 170, 0);
+    display: inline-block;
+    width: 10px;
+    margin-left: 5px;
+    border-radius: 1px;
+  }
+  
+  .centered {
+    margin: 0px auto 40px;
+    display: block;
+  }
+  
+  @keyframes cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .container {
+    display: flex;
+    align-content: center;
+  }
+  footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .svg-sn{
+      height: 1em;
+  }
+  
+  footer svg path{
+    fill : rgb(209,213,219);
+}
+@keyframes fadeInZ {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+}
+footer svg:hover {
+    animation: fadeInZ 1s ease-in infinite alternate;
+}
+footer svg:hover path{
+    fill: rgb(125,211,252);
+}
+.Typewriter__cursor{
+    display: none !important;
+}
